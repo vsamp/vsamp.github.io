@@ -1,37 +1,198 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notícias cidade - seu site de notícias</title>
+	<meta charset="utf-8">
 
-You can use the [editor on GitHub](https://github.com/vsamp/vsamp.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body class="home">
+	<!-- Inicio do container -->
+	<div id="container">
+		<!-- Inicio do topo -->
+		<div id="topo">
+			<h1 class="logo">Notícias cidade</h1>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			<ul id="navegacao">
+				<li class="primeiro">
+					<a id="home" href="index.html">home</a>
+				</li>
+				<li>
+					<a id="brasil" href="brasil.html">Brasil</a>
+				</li>
+				<li>
+					<a id="internacional" href="internacional.html">Internacional</a>
+				</li>
+				<li>
+					<a id="economia" href="economia.html">Economia</a>
+				</li>
+				<li>
+					<a id="saude" href="saude.html">Saúde</a>
+				</li>
+				<li>
+					<a id="ciencia" href="ciencia.html">Ciência</a>
+				</li>
+				<li>
+					<a id="fotos" href="fotos.html">Fotos</a>
+				</li>
+			</ul>
+		</div> <!--fim do topo -->
 
-### Markdown
+		<!-- Inicio conteudo -->
+		<div id="conteudo">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			<div id="primario">
 
-```markdown
-Syntax highlighted code block
+				<div class="caixa destaque">
+					<h2>Destaque</h2>
+					<div class="caixa-conteudo">
+						<h3>Nova legislação</h3>
+						<img src="img/imagens/taxi.jpg" width="100%">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="nova-legislacao.html">Leia mais...</a>
+					</div>
+				</div>
 
-# Header 1
-## Header 2
-### Header 3
+				<!-- Inicio Lista noticias -->
 
-- Bulleted
-- List
+				<div class="caixa">
+					<h2>Mundo</h2>
+					<div class="caixa-conteudo">
+						<ul id="lista-noticias">
+							<li>
+								<a href="">
+									<img src="img/imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="img/imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="img/imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="img/imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-1. Numbered
-2. List
+			</div> <!-- Fim Lista noticias -->
 
-**Bold** and _Italic_ and `Code` text
+			<!-- Inicio Container -->
+			<div id="secundario">
+				<!-- Inicio Caixa-entrevista -->
+				<div class="caixa entrevista">
+					<h2>Última entrevista</h2>
+					<div class="caixa-conteudo">
+						<h3>Entrevista com Felipe Silva</h3>
+						<img src="img/imagens/doutor.jpg" width="100%">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<a href="">Leia mais...</a>
+					</div>
+				</div><!-- Fim caixa-entrevista-->
 
-[Link](url) and ![Image](src)
-```
+			<!-- Inicio caixa-noticias-->
+			<div class="caixa">
+					<h2>Notícias recentes</h2>
+					<div class="caixa-conteudo">
+						<ul id="lista-noticias">
+							<li>
+								<a href="">
+									<img src="img/imagens/cidade.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="img/imagens/taxi.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="img/imagens/tecnologia.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<img src="img/imagens/doutor.jpg" width="80">
+									<h3>Novas tecnologias</h3>
+									<p>Lorem ipsum mi sit amet mauris</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+			</div> <!-- Fim Container-->
+			
+			<!-- Inicio lateral -->
+			<div id="lateral">
 
-### Jekyll Themes
+				<div class="caixa">
+					<h2>Entrevistas</h2>
+					<div class="caixa-conteudo">
+						<ul>
+							<li><a href="">José Almeida</a></li>
+							<li><a href="">Felipe Silva</a></li>
+							<li><a href="">Renato Rodrigues</a></li>
+							<li><a href="">Abelardo Silveira</a></li>
+							<li><a href="">André Carlos</a></li>
+							<li><a href="">Marcio Mello</a></li>
+							<li><a href="">João Pedro</a></li>
+							<li><a href="">Fernando Weiss</a></li>
+						</ul>
+					</div>
+				</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vsamp/vsamp.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+			<!-- News -->		
+				<div class="caixa">
+					<h2>News</h2>
+					<div class="caixa-conteudo">
+						<form>
+							<div>
+								<label for="email">Email:</label>
+								<input id="email" type="text" name="email" placeholder="E-mail">
+							</div>
+							<div>
+								<input class="submit" type="submit" value="Cadastrar">
+							</div>
+						</form>
+					</div>
+				</div>
+			
+			</div><!-- Fim lateral-->
 
-### Support or Contact
+		</div><!-- Fim conteudo -->
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+	</div><!-- fim /container -->
+
+	<div id="container-rodape" style="clear: both;">
+		<div id="rodape">
+
+			&copy; Copyright 2000-2018 Notícias cidade
+
+		</div>
+	</div>
+</body>
+</html>
