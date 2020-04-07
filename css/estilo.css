@@ -18,7 +18,7 @@ body {
 
 #topo {
 	height: 150px;
-	background: url(../img/imagens/detalhe-topo.png) no-repeat right top;
+	background: url(https://vsamp.github.io/img/detalhe-topo.png) no-repeat right top;
 	padding-top: 25px;
 	/*border: 1px solid red;*/
 }
@@ -26,7 +26,7 @@ body {
 .logo {
 	width: 152px;
 	height: 66px;
-	background: url(../img/imagens/logo.png) no-repeat center;
+	background: url(https://vsamp.github.io/img/logo.png) no-repeat center;
 	text-indent: -3000px;
 }
 
@@ -54,7 +54,7 @@ ul {
 	line-height: 2.1em;
 	text-decoration: none;
 	color: #fff;
-	background: url(../img/imagens/divisor.png) no-repeat left center;
+	background: url(https://vsamp.github.io/img/divisor.png) no-repeat left center;
 
 }
 
@@ -113,7 +113,7 @@ body.fotos #navegacao a#fotos
 .caixa {
 	margin: 10px 0;
 	padding: 5px;
-	background: #f3f3f3 url(../img/imagens/fundo-caixa.png);
+	background: #f3f3f3 url(https://vsamp.github.io/img/fundo-caixa.png);
 }
 
 h2 {
@@ -141,7 +141,7 @@ h2 {
 }
 
 #lateral ul a:hover {
-	background: #f9f9f9 url(../img/imagens/marcador.png) no-repeat left center;
+	background: #f9f9f9 url(https://vsamp.github.io/img/marcador.png) no-repeat left center;
 	padding-left: 20px;
 	color: #a1a1a1;
 
