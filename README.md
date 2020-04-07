@@ -1,2 +1,2 @@
-# http://vsamp.github.io
+# http://vsamp.github.io/index.html
 my website
